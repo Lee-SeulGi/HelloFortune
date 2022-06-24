@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/handback" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/feeling"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/feeling"/>
+
+        <Button
+            android:id="@+id/heart"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/heart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/win"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="385dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/win"/>
+
+        <Button
+            android:id="@+id/job"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="385dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/job"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_backdata"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="635dp"
+            android:layout_marginLeft="45dp"
+            android:text="다른 손금 보기"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="#416a90"
+            android:fontFamily="@font/a1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_backmenu"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="635dp"
+            android:layout_marginLeft="205dp"
+            android:text="메뉴로 돌아가기"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="#416a90"
+            android:fontFamily="@font/a1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/handdata"
+            android:layout_width="380dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

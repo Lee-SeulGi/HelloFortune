@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/access" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:text="헬로우운세 앱 어떠셨나요?"
+            android:fontFamily="@font/a1"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="134dp"
+            android:layout_marginTop="12dp"
+            android:text="평가해주세요."
+            android:fontFamily="@font/a1"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:isIndicator = "false"
+            android:numStars="5"
+            android:rating="2.5"
+            android:max="5"
+            android:progressTint="#155ac1"
+            android:progressBackgroundTint="#cfdff7"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_report"
+            android:background="#3a6388"
+            android:text="제출하기"
+            android:fontFamily="@font/a1"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginLeft="135dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

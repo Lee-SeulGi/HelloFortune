@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/info" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="45dp"
+            android:text="이름"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#c3def7"
+            android:fontFamily="@font/a1"/>
+
+        <EditText
+            android:id="@+id/today_Name"
+            android:layout_width="208dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="68dp"
+            android:hint="  이름(최대 6글자)"
+            android:textColorHint="#000000"
+            android:maxLength="6"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:background="#c3def7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="203dp"
+            android:layout_marginLeft="45dp"
+            android:text="생년월일"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#c3def7"
+            android:fontFamily="@font/a1"/>
+
+        <EditText
+            android:id="@+id/birth"
+            android:layout_width="208dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginLeft="32dp"
+            android:hint="  생년월일"
+            android:textColorHint="#000000"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:background="#c3def7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="268dp"
+            android:layout_marginLeft="45dp"
+            android:text="태어난시간"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#c3def7"
+            android:fontFamily="@font/a1"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="208dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginLeft="15dp"
+            android:background="#c3def7"
+            android:fontFamily="@font/a1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="333dp"
+            android:layout_marginLeft="45dp"
+            android:text="성별"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#c3def7"
+            android:fontFamily="@font/a1"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="208dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="332dp"
+            android:layout_marginLeft="68dp"
+            android:background="#c3def7"
+            android:fontFamily="@font/a1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button
+            android:id="@+id/btn_correct"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="126dp"
+            android:text="운세보기"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="#4877a3"
+            android:fontFamily="@font/a1"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

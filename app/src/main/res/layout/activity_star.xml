@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/starfortune" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button
+            android:id="@+id/starbtn_1"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_1"/>
+
+        <Button
+            android:id="@+id/starbtn_2"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/starbtn_3"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_3"/>
+
+        <Button
+            android:id="@+id/starbtn_4"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/starbtn_5"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_5"/>
+
+        <Button
+            android:id="@+id/starbtn_6"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/starbtn_7"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="386dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_7"/>
+
+        <Button
+            android:id="@+id/starbtn_8"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="386dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/starbtn_9"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="468dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_9"/>
+
+        <Button
+            android:id="@+id/starbtn_10"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="468dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/starbtn_11"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_11"/>
+
+        <Button
+            android:id="@+id/starbtn_12"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/star_12"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/stardata"
+            android:layout_width="375dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_backmenu"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="645dp"
+            android:layout_marginLeft="120dp"
+            android:text="메뉴로 돌아가기"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="#416a90"
+            android:fontFamily="@font/a1"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
