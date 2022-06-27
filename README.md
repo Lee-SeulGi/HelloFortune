@@ -12,7 +12,7 @@
 <img src="https://user-images.githubusercontent.com/89624548/175469852-f866609f-b065-4992-981d-70e13fbdb87d.JPG"/>
 <img src="https://user-images.githubusercontent.com/89624548/175470109-29f79b92-1e0f-4c5c-8ae9-1ee9120089f5.JPG"/>
 <img src="https://user-images.githubusercontent.com/89624548/175470256-13a0d8a8-926b-48bb-a68b-4d56972fc21c.JPG"/>
-<img src="https://user-images.githubusercontent.com/89624548/175470445-242643e6-d8e5-42f1-8d4e-61e9892abc41.JPG" width="430"/>
+<img src="https://user-images.githubusercontent.com/89624548/175470445-242643e6-d8e5-42f1-8d4e-61e9892abc41.JPG" width="400"/>
 
 ## 🔍 시스템 구성도
 ![플로우차트_최종](https://user-images.githubusercontent.com/89624548/175467480-b91ee4a7-c109-4642-b780-47d175a53d98.png)
